@@ -5,7 +5,17 @@
 # 객체
 ### 객체는 클래스에서 정의한 속성을 가진 실체, 객체는 서로 독립적인 상태를 가짐. 
 ```java
-Student student1 = new student();
-Student student2 = new student();
+Student student1 = new student(); //x001
+Student student2 = new student(); //x002
+student1 = x001
+student2 = x002
 ```
 ### new 를 통한 시점에서 객체가 생성됨.
+### 이때 생성된 객체는 서로 독립적인 상태이므로 같은 클래스를 공유하여 사용하더라도 생성된 객체의 참조값은 다르게 담김.
+
+```java
+sutdent1.name = "학생1";
+```
+### 인스턴스에 접근하려면 .을 통해 해당 인스턴스의 멤버변수 접근 가능.
+
+### 자바에서의 대입은 항상 변수에 들어 있는 값을 복사한다. 그래서 student1에는 참조값이 그대로 복사해서 대입.
