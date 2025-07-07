@@ -4,11 +4,8 @@
 
 # 객체
 ### 객체는 클래스에서 정의한 속성을 가진 실체, 객체는 서로 독립적인 상태를 가짐. 
- ```java
-public class BootSpringBootApplication {
-  public static void main(String[] args) {
-    System.out.println("Hello, Honeymon");
-  }
-}
+```java
+Student student1 = new student();
+Student student2 = new student();
 ```
 ### new 를 통한 시점에서 객체가 생성됨.
